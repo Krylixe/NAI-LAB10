@@ -1,0 +1,38 @@
+1. Rozpakowanie plików:
+Pobierz archiwum ZIP z projektem i wypakuj jego zawartość do dowolnego folderu na dysku komputera.
+
+2. Uruchomienie terminala:
+Otwórz wypakowany folder. Upewnij się, że widzisz w nim plik o nazwie manage.py. Kliknij pasek adresu folderu, wpisz cmd i wciśnij Enter, aby otworzyć terminal dokładnie w tej lokalizacji.
+
+3. Instalacja frameworka Django:
+W oknie terminala wpisz poniższą komendę, aby pobrać i zainstalować bibliotekę Django (jeśli nie jest jeszcze zainstalowana w systemie), a następnie wciśnij Enter:
+
+Bash
+pip install django
+
+4. Uruchomienie serwera lokalnego:
+Gdy instalacja dobiegnie końca, uruchom projekt za pomocą komendy:
+
+Bash
+python manage.py runserver
+
+5. Testowanie aplikacji w przeglądarce:
+Nie zamykaj okna terminala. Otwórz dowolną przeglądarkę internetową i przejdź pod adres:
+http://127.0.0.1:8000/
+
+Wyświetli się strona główna z menu nawigacyjnym, z poziomu którego można przejść do wszystkich modułów systemu:
+
+Oferta Publiczna: http://127.0.0.1:8000/offer/
+
+Formularz Rejestracji: http://127.0.0.1:8000/register/
+
+Endpoint API (JSON): http://127.0.0.1:8000/courses/
+
+Panel Administratora: http://127.0.0.1:8000/admin/
+
+Dane logowania do Panelu Administratora:
+Aby przetestować dodawanie nowych szkoleń i przeglądanie rejestracji z poziomu panelu admin/, należy użyć poniższych danych logowania:
+
+Login: krystian
+
+Hasło: 123
